@@ -257,9 +257,9 @@ for (i in seq(1,nrow(curves2))){
     }
     
     if(exists("finalHigherStock") && finalHigherStock != Inf){
-        stockmake = paste0(finalHigherStock/1000, " µM and ", stock2/1000, " µM")
+        stockmake = paste0(finalHigherStock/1000, " mM and ", stock2/1000, " mM")
     } else {
-        stockmake = paste0(stock2/1000, " µM")
+        stockmake = paste0(stock2/1000, " mM")
     }
     
             
